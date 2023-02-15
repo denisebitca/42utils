@@ -1,0 +1,21 @@
+body, html {
+	background-color: #000000;
+	margin: 40px auto;
+	max-width: 650px;
+	color: white;
+	font-family: monospace;
+}
+
+header { 
+	font-family: monospace;
+	display: flex;
+}
+
+header>p {
+	margin: auto 15px;
+	font-size: 20px;
+}
+
+a:visited {
+	color: lightblue;
+}
