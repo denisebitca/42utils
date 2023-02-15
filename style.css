@@ -1,9 +1,10 @@
-body, html {
+body {
 	background-color: #000000;
 	margin: 40px auto;
 	max-width: 650px;
 	color: white;
 	font-family: monospace;
+	padding: 0 8px;
 }
 
 header { 
