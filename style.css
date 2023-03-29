@@ -1,22 +1,43 @@
-body {
-	background-color: #000000;
+p, a, h1, h2, h3, h4, span, li, ul, i
+{
+    font-family: "PT Sans", sans-serif
+}
+#content {
 	margin: 40px auto;
 	max-width: 650px;
-	color: white;
 	font-family: monospace;
 	padding: 0 8px;
 }
-
-header { 
-	font-family: monospace;
-	display: flex;
+#content>p, #content>li {
+    font-size: 24px
 }
-
-header>p {
-	margin: auto 15px;
-	font-size: 20px;
+html, body {
+    margin: 0 auto;
+    background-color: #a4d1a5;
 }
-
-a:visited {
-	color: lightblue;
+header {
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 2px black solid;
+}
+.logo {
+    padding: 15px;
+    border-right: 2px black solid;
+}
+.logo>img
+{
+    filter: invert();
+    display: inline
+}
+.logo>pre, .logo>p
+{
+    margin: 0 auto;
+    display: inline;
+}
+.footer_text {
+    float: right;
+    padding: 15px;
+    margin: 0px;
 }
