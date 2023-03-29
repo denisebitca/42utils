@@ -1,24 +1,97 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.png" sizes="32x32">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="style.css">
+
+    <!-- HTML Meta Tags -->
     <title>42utils</title>
-	    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://42utils.com">
-        <meta property="og:site_name" content="42utils">
-        <meta property="og:image" itemprop="image primaryImageOfPage" content="https://42utils.com/opengraphimg.jpg">
-        <meta name="twitter:card" content="summary">
-        <meta name="twitter:domain" content="42utils.com">
-        <meta name="twitter:title" property="og:title" itemprop="name" content="42utils">
-        <meta name="twitter:description" property="og:description" itemprop="description" content="Utilities for 42 students across campuses (unofficial)">
-	<link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-	  <header>
-		  <img src="42.svg" alt="42 logo" width="40px">
-		  <p>utils</p>
-		  <span>unofficial</span>
-	  </header>
-	  <p>This is supposed to be a list of utilities for 42 students across campuses. Any ideas? Contact mie+42utils@courrier.dev or make an issue <a href="https://github.com/denisebitca/42utils">on github</a></p>
-  </body>
+    <meta name="description" content="Utilities for 42 students across campuses (unofficial)">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://42utils.com">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="42utils">
+    <meta property="og:description" content="Utilities for 42 students across campuses (unofficial)">
+    <meta property="og:image" content="https://42utils.com/opengraphimg.jpg">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="42utils.com">
+    <meta property="twitter:url" content="https://42utils.com">
+    <meta name="twitter:title" content="42utils">
+    <meta name="twitter:description" content="Utilities for 42 students across campuses (unofficial)">
+    <meta name="twitter:image" content="https://42utils.com/opengraphimg.jpg">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="42.svg" alt="42 logo">
+            <pre>utils</pre>
+            <p>(unofficial)</p>
+        </div>
+        <p class="footer_text">a project by <a href="https://github.com/denisebitca">denise</a>. this website connects to google via google fonts (which might be illegal in germany).</p>
+    </header>
+    <div id="content">
+        <p>This is supposed to be a list of utilities for 42 students across campuses. Any ideas? <a href="https://github.com/denisebitca/42utils/issues/1">Add a comment on Github</a>.
+        Send a message via 42utils@42l.fr to request takedowns.</p>
+        <p>Some utilities require a working 42 intranet account.</p>
+        <ul>
+            <li>
+                <a href="https://github.com/LudovicLemaire/Slots-finder">
+                    Slots-finder by Ludovic Lemaire
+                </a>
+            </li>
+            An app that sends a notification when a "correction slot" is available for your project.
+            <li>
+                <a href="https://find-peers.codam.nl/">
+                    Find Peers by Joppe Koers
+                </a>
+            </li>
+            A website that helps students to find peers that are working on the same project.
+            <li>
+                <a href="https://42evaluators.com">42evaluators by rfautier</a> (mainly for 42 Paris)
+            </li>
+            <i>Taken from the website, changed a little:</i>
+            A website that solves a problem that all post-stage-students are facing: They can't find an evaluator for a project.
+            <li>
+                <a href="https://42-randoms.vercel.app/">
+                    42randoms by pcartau
+                </a>
+            </li>
+            <i>Taken from the website, changed a little:</i>
+            A website for sharing resources that are useful to current and future students of 42 campuses (mainly 42 Paris for now).
+            <li>
+                <a href="https://github.com/xicodomingues/francinette">
+                    Francinette by xicodomingues
+                </a>
+            </li>
+            An easy to use testing framework for 42 projects.
+            <li>
+                <a href="https://github.com/MichelleJiam/LazyPhilosophersTester">
+                    LazyPhilosophersTester by MichelleJiam
+                </a>
+            </li>
+            A semi-automatic tester for checking 42's philosophers project. It tests: invalid inputs, when program should stop on death/eaten enough, and when program should stay running (timed). 
+            <li>
+                <a href="https://github.com/SimonCROS/push_swap_tester">
+                    push_swap tester by Simon Cros
+                </a>
+            </li>
+            A fast push_swap tester (calculates complexity too!)
+            <li>
+                <a href="https://github.com/denisebitca/ftpkg_cli">
+                    ftpkg_cli by Denise Bitca (42 Paris only)
+                </a>
+            </li>
+            Terminal utility to install packages curated by the 42 Paris staff on 42 Paris dumps.
+        </ul>
+    </div>
+</body>
 </html>
